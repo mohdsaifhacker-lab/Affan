@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clothing Brand</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Clothing Brand</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#men">Men</a></li>
+        <li><a href="#women">Women</a></li>
+        <li><a href="#children">Children</a></li>
+        <li><a href="#about">About CEO</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger">&#9776;</div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <h1>Welcome to Our Clothing World</h1>
+    <p>Fashion for Everyone: Men, Women, and Children</p>
+    <a href="#men" class="btn">Shop Now</a>
+  </section>
+
+  <!-- Men Section -->
+  <section id="men" class="category">
+    <h2>Men’s Collection</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="Men Clothing">
+        <h3>Stylish Jackets</h3>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="Men Clothing">
+        <h3>Casual Shirts</h3>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="Men Clothing">
+        <h3>Formal Wear</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Women Section -->
+  <section id="women" class="category">
+    <h2>Women’s Collection</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="Women Clothing">
+        <h3>Elegant Dresses</h3>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="Women Clothing">
+        <h3>Trendy Tops</h3>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="Women Clothing">
+        <h3>Accessories</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Children Section -->
+  <section id="children" class="category">
+    <h2>Children’s Collection</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="Children Clothing">
+        <h3>Fun T-Shirts</h3>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="Children Clothing">
+        <h3>Kids Jackets</h3>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="Children Clothing">
+        <h3>Playful Outfits</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- CEO Section -->
+  <section id="about" class="about">
+    <h2>About Our CEO</h2>
+    <div class="about-container">
+      <div class="ceo-img">
+        <!-- Add Affan's Image here -->
+        <img src="WhatsApp Image 2025-09-21 at 16.47.02_a5a3c330.jpg" alt="CEO Affan">
+      </div>
+      <div class="ceo-info">
+        <h3>Affan - CEO</h3>
+        <p>
+          Affan is a visionary entrepreneur who founded this clothing brand with a mission to bring 
+          affordable fashion to everyone. With his passion for creativity and commitment to quality, 
+          he has built a brand that combines style, comfort, and elegance. His leadership inspires 
+          innovation, and he believes in creating fashion that represents individuality while being 
+          accessible to all. Affan is dedicated to sustainability and ensuring that every product 
+          is designed with care and love for customers.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact">
+    <p>&copy; 2025 Clothing Brand | All Rights Reserved</p>
+  </footer>
+
+  <!-- JavaScript for Hamburger Menu -->
+  <script>
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
